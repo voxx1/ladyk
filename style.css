@@ -218,29 +218,20 @@ body {
 }
 
 .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   margin-top: 30px;
 }
 
 .footer-icons a {
   margin: 0 20px;
-  color: #8e693f;
+  color: #8e693f !important;
 }
 
 .footer-icons i:hover {
-  color: #8e693f;
+  color: #8e693f !important;
 }
 
 .footer-icon {
@@ -345,6 +336,11 @@ body {
   padding: 40px;
 }
 
+.sklep-btn {
+  background: #d5b4a6 !important;
+  color: white !important;
+  border: 1px solid #d5b4a6 !important;
+}
 .icon-pros {
   height: 50px;
   width: 50px;
@@ -494,7 +490,6 @@ background: linear-gradient(68deg, rgba(255,255,255,1) 0%, rgba(215,183,170,1) 3
   line-height: 1rem;
   font-weight: 500;
   padding: 0 30px;
-  font-family: "Open Sans",Verdana,Tahoma,sans-serif;
   letter-spacing: 2px;
   font-size: 11px;
   margin-top: 70px;
@@ -516,6 +511,14 @@ background: linear-gradient(68deg, rgba(255,255,255,1) 0%, rgba(215,183,170,1) 3
 
 .author-color:hover {
   color: #8e693f !important;
+}
+
+.galery-img {
+  object-fit: cover;
+width: 100%;
+height: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .accordion-item {
