@@ -14,6 +14,11 @@ body {
   overflow: hidden;
 }
 
+.icon-img {
+  height: 70px;
+  width: 80px;
+}
+
 .height-res {
   height: 100vh;
 }
@@ -66,6 +71,19 @@ body {
   background-size: cover;
 }
 
+.onas-img img {
+  width: 100%;
+  height: auto;
+}
+.blog-more {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.blog-more:hover {
+  color: #8e693f;
+  cursor: pointer;
+}
 .box {
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -381,7 +399,7 @@ body {
   counter-increment: item-counter;
 }
 .g-item:nth-of-type(1) {
-  background-image: url('images/salon1.png');
+  background-image: url('images/salon1.webp');
 }
 .g-item:nth-of-type(2) {
   background-image: url('images/salon2.jpg');
@@ -396,7 +414,7 @@ body {
   background-image: url('images/salon5.png');
 }
 .g-item:nth-of-type(6) {
-  background-image: url('images/salon1.png');
+  background-image: url('images/salon1.webp');
 }
 .g-item:nth-of-type(7) {
   background-image: url('images/salon2.jpg');
@@ -411,7 +429,7 @@ body {
   background-image: url('images/salon5.png');
 }
 .g-item:nth-of-type(11) {
-  background-image: url('images/salon1.png');
+  background-image: url('images/salon1.webp');
 }
 .g-item:nth-of-type(12) {
   background-image: url('images/salon2.jpg');
@@ -426,7 +444,7 @@ body {
   background-image: url('images/salon5.png');
 }
 .g-item:nth-of-type(16) {
-  background-image: url('images/salon1.png');
+  background-image: url('images/salon1.webp');
 }
 .g-item:nth-of-type(17) {
   background-image: url('images/salon2.jpg');
@@ -701,11 +719,11 @@ height: 250px;
   cursor: pointer;
   font-size: 24px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .accordion-item > .title > .arrow {
   fill: hsl(17, 36%, 65%);
-  padding-left: 15px;
 }
 
 .accordion-item > .content {
